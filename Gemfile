@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Always need this to properly display in windows local server!
+gem 'coffee-script-source',		'1.8.0'
 
 gem 'rails',		'5.0.1'
 gem 'puma',			'3.4.0'
